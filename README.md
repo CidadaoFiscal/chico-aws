@@ -12,8 +12,10 @@ Other functions may be added in the future.
 
 Prepare your Azure Functions development environment for Python (https://docs.microsoft.com/pt-br/azure/azure-functions/)
 
+1. Configure Azure Storage to have a container named "data-output"
 1. Clone this repository
-2. Run in development mode 
+2. Run in development mode
+
 
 local.settings.json
 <pre>

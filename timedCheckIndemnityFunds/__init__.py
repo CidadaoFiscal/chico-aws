@@ -100,6 +100,6 @@ def main(mytimer: func.TimerRequest) -> None:
     client = BlobServiceClient.from_connection_string(os.getenv("AzureWebJobsStorage"))
 
     blob_name = "alepeIndemnityFunds" + utc_timestamp + ".csv"
-    blob_client = client.get_blob_client(container="dataoutput", blob=blob_name)
+    blob_client = client.get_blob_client(container="data-output", blob=blob_name)
 
     blob_client.upload_blob(output)
