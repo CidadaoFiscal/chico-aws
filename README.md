@@ -1,5 +1,5 @@
 # Chicó
-Chicó is a collection of automatic webscrapping scripts to help analyse public expendures from Pernambuco Legislative Assembly (ALEPE).
+Chicó is a collection of automatic webscrapping scripts to help analyse public expenditures from Pernambuco Legislative Assembly (ALEPE).
 
 ## Azure Functions
 This project is a simple port from local running code to scheduled azure functions. It can be enhanced to consider edge cases such as website unavailability.
